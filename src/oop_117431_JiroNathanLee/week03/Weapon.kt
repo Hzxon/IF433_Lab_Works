@@ -7,6 +7,7 @@ class Weapon(val name: String) {
                 println("Damage tidak boleh negatif!")
             } else if (value > 1000) {
                 println("Damage tidak boleh > 1000")
+                field = 1000
             } else {
                 field = value
             }

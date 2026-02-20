@@ -10,5 +10,12 @@ fun main() {
 
     println("Pajak yang harus dibayar: ${e.tax}")
 
+    println("\n")
 
+    val w = Weapon("Tono")
+
+    //w.damage = -50
+    w.damage = 9999
+    println("Damage ${w.damage}")
+    println("Tier: ${w.tier}")
 }
