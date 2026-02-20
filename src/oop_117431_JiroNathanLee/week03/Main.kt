@@ -18,4 +18,13 @@ fun main() {
     w.damage = 9999
     println("Damage ${w.damage}")
     println("Tier: ${w.tier}")
+
+    println("\n")
+
+    val p1 = Player("Hzxon")
+
+    //p1.xp --> error
+    p1.addXp(50)
+    println("Level: ${p1.level}")
+    p1.addXp(60)
 }
