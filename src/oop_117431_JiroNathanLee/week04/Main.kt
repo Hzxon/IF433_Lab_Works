@@ -17,4 +17,13 @@ fun main() {
     eCar.accelerate()
     eCar.honk()
     eCar.openTrunk()
+
+    println("\n--- Manager & Developer ---")
+    val m1 = Manager("Budi", 8_000_000)
+    m1.work()
+    println("Bonus: Rp${m1.calculateBonus()}")
+
+    val dev1 = Developer("Tono", 5_000_000, "C++")
+    dev1.work()
+    println("Bonus: Rp${dev1.calculateBonus()}")
 }
