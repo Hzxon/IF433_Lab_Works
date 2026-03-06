@@ -23,4 +23,10 @@ fun main() {
         }
         println("--------------------------")
     }
+
+    val m1 = MathHelper()
+    println("With sisi: ${m1.hitungLuas(10)} ")
+    println("With panjang * Lebar: ${m1.hitungLuas(10 * 8)} ")
+    println("With jari2: ${m1.hitungLuas(10.4)} ")
+
 }
