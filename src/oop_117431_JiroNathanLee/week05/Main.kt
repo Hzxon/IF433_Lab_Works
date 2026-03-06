@@ -41,8 +41,11 @@ fun main() {
         method.processPayment(paymentAmount)
 
         if (method is EWallet) {
-            println("EWallet, saldo kurang")
+            println("EWallet, saldo kurang. Auto Top-UP...")
+            method.topUp(50_000.0)
 
+            println("Mencoba kembali proses pembayaran...")
+            method.processPayment(paymentAmount)
         }
         println()
     }
