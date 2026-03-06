@@ -29,4 +29,21 @@ fun main() {
     println("With panjang * Lebar: ${m1.hitungLuas(10 * 8)} ")
     println("With jari2: ${m1.hitungLuas(10.4)} ")
 
+    println("==============================")
+
+    val EW1 = EWallet("Jiro", 50_000.0)
+    val CC1 = CreditCard("Jiro", 100_000.0)
+
+    val paymentMethods: List<PaymentMethod> = listOf(EW1, CC1)
+    val paymentAmount = 75_000.0
+
+    for (method in paymentMethods) {
+        method.processPayment(paymentAmount)
+
+        if (method is EWallet) {
+            println("EWallet, saldo kurang")
+
+        }
+        println()
+    }
 }
