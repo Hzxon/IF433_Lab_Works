@@ -36,7 +36,12 @@ fun main() {
     }
     println(uiMessage)
 
-    println("\n=== TEST TASK GAME ===")
+    println("\n=== TEST RPG GAME ===")
     GameManager.startGame()
     GameManager.startGame()
+
+    println("Drop chance: ${ItemRarity.LEGENDARY.dropChance}%")
+    val starterWeapon = Weapon.forgeStarterSword()
+    println("Stats starter weapon: ${starterWeapon.item.name}, damage: ${starterWeapon.item.damage}, rarity: ${starterWeapon.item.rarity}")
+
 }
