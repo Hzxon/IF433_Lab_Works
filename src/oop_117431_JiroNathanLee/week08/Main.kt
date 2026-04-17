@@ -25,4 +25,11 @@ fun main() {
         "Laptop",
         4_500_000.0
     )
+
+    for (item in mixedData) {
+        val text = item as? String
+        text?.let {
+            println("Ditemukan tek: ${it.uppercase()}")
+        }
+    }
 }
