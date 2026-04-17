@@ -20,4 +20,6 @@ fun main() {
             println("Log Peringatan: ${e.message}")
         }
     }
+
+    // output valid
 }
