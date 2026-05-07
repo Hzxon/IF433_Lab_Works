@@ -8,4 +8,8 @@ fun main() {
     coinRepo.add(Coin("USDT", 100.0))
 
     val response = ApiResponse("200 OK", coinRepo.getAll())
+
+    response.data.forEach { coin ->
+        println("Coin Name: ${coin.name} | Balance: ${coin.balance}")
+    }
 }
