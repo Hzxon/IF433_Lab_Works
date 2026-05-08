@@ -35,4 +35,8 @@ fun main() {
         println("Hasil Pencarian Kamera:")
         println(it.diagnose())
     }
+
+    with(homeDevices) {
+        println("Total perangkat yang terkonfigurasi: ${this.size} unit")
+    }
 }
