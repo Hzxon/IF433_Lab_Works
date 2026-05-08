@@ -1,4 +1,4 @@
-package oop_117431_jiro.week10
+package oop_117431_JiroNathanLee.week10
 
 fun <T> printData(data: T) {
     println("Data yang diterima: $data")

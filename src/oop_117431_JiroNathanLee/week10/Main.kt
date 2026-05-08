@@ -1,6 +1,4 @@
-package oop_117431_jiro.week10
-
-import sun.management.MemoryUsageCompositeData.getMax
+package oop_117431_JiroNathanLee.week10
 
 fun main() {
     println("=== TEST GENERIC CLASS ===")

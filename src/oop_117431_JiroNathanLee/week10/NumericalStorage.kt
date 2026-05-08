@@ -1,4 +1,4 @@
-package oop_117431_jiro.week10
+package oop_117431_JiroNathanLee.week10
 
 class MathBox<T: Number>(val value1: T, val value2: T) {
     fun sum(): Double {

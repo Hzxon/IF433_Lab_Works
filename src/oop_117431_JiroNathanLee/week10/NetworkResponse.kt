@@ -1,3 +1,3 @@
-package oop_117431_jiro.week10
+package oop_117431_JiroNathanLee.week10
 
 data class ApiResponse<T>(val status: String, val data: T)

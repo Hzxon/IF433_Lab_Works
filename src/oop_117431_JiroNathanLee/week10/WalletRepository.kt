@@ -1,4 +1,4 @@
-package oop_117431_jiro.week10
+package oop_117431_JiroNathanLee.week10
 
 class WalletRepository<T> {
     private val items = mutableListOf<T>()
